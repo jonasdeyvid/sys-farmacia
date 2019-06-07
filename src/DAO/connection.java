@@ -10,7 +10,7 @@ public class connection {
      try {
         return DriverManager.getConnection("jdbc:mysql://localhost/farmacia","root","");
      }catch (SQLException erro){
-        throw new RuntimeException("Erro 1" + erro);
+        throw new RuntimeException(erro);
      
      }
      }

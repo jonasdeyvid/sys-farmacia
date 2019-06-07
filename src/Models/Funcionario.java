@@ -4,7 +4,8 @@ public class Funcionario {
 	private Integer id;
         private String usuario;	
         private String senha;
-        private Funcionario funcionario;
+       
+        
 
     public String getUsuario() {
         return usuario;
@@ -26,16 +27,17 @@ public class Funcionario {
     }
 
   
-    public Funcionario getFuncionario() {
-        return funcionario;
+    public Integer getId() {
+        return id;
     }
 
-   
-    public void setFuncionario(Funcionario funcionario) {
-        this.funcionario = funcionario;
+    
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-	
+  
+ 
 	}
 	
 
