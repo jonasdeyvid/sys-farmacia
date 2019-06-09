@@ -2,12 +2,13 @@
 package Models;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
-public class Compra implements IntensDeCompra {
+public class Compra {
     private Integer id;
     private String id_cliente;
-    ArrayList<IntensDeCompra> listacompra;
+    List<Medicamento> listacompra;
      
      public Compra (){
      listacompra = new ArrayList();

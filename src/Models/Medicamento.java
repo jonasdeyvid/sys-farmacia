@@ -1,19 +1,17 @@
-
 package Models;
 
 public class Medicamento {
+
     private Integer id;
     private String nome;
-    private String descrição;
-    private String laboratório;
+    private String descricao;
+    private String laboratorio;
     private double preco;
-  
-   
+
     public Integer getId() {
         return id;
     }
 
-   
     public void setId(Integer id) {
         this.id = id;
     }
@@ -26,31 +24,26 @@ public class Medicamento {
         this.nome = nome;
     }
 
-    public String getDescrição() {
-        return descrição;
+    public String getDescricao() {
+        return descricao;
     }
 
-   
-    public void setDescrição(String descrição) {
-        this.descrição = descrição;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
- 
-    public String getLaboratório() {
-        return laboratório;
+    public String getLaboratorio() {
+        return laboratorio;
     }
 
-   
-    public void setLaboratório(String laboratório) {
-        this.laboratório = laboratório;
+    public void setLaboratorio(String laboratorio) {
+        this.laboratorio = laboratorio;
     }
-
 
     public double getPreco() {
         return preco;
     }
 
-  
     public void setPreco(double preco) {
         this.preco = preco;
     }
