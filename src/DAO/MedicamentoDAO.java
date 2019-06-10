@@ -85,4 +85,8 @@ public class MedicamentoDAO {
 
         return medicamentos;
 }
+
+    public Medicamento listAll(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

@@ -1,14 +1,9 @@
 package Models;
 
-/**
- * Classe de relação entre a compra e medicamento
- *
- * 
- */
+
 public class ItemCompra {
 
     private int codigo;
-    private Venda compra;
     private Medicamento produto;
     private int quantidade;
     private Double valorUnitario;
@@ -22,14 +17,7 @@ public class ItemCompra {
         this.codigo = codigo;
     }
 
-    public Venda getCompra() {
-        return compra;
-    }
-
-    public void setCompra(Venda compra) {
-        this.compra = compra;
-    }
-
+   
     public Medicamento getProduto() {
         return produto;
     }

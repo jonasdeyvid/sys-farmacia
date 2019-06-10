@@ -10,10 +10,27 @@ import java.util.List;
 public class TesteUpdateMedicamento {
     
     public static void main(String[]args ) throws SQLException {
-     MedicamentoDAO medicamento = new MedicamentoDAO();
+     MedicamentoDAO dao = new MedicamentoDAO();
      
-     List<Medicamento> medicamentos = medicamento.listAll();
+     try{
+         
+         List<Medicamento> lista dao.listAll();
+         Medicamento c4 = dao.listAll(0);
+         c4.setNome("pedro lapadinha");
+         dao.update(c4);
+         System.out.println("Atualizado");
+     }catch(SQLException){
      
+     
+     }
+         
+     
+     
+     
+     
+     }
+     
+    
      
      
  
